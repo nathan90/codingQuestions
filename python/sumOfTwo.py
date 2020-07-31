@@ -30,8 +30,8 @@ def sumOfTwo(a, b, v):
         delta = i - v
         complement.add(delta)
     for j in b:
-        if j in delta:
+        if j == delta:
             return True
     return False
 
-print(sumOfTwoBrute(a, b, 412))
+print(sumOfTwo(a, b, 412))
